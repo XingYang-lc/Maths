@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>圆与方程</title>
+  <style>
+    body {
+      font-family: "微软雅黑", "Arial", sans-serif;
+      background: linear-gradient(120deg, #f0f6ff 0%, #e6f7ff 100%);
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      padding: 32px 30px;
+    }
+    h1 {
+      color: #3477eb;
+      text-align: center;
+      margin-bottom: 24px;
+      letter-spacing: 1px;
+    }
+    h2 {
+      color: #2254a3;
+      margin-top: 32px;
+      margin-bottom: 12px;
+    }
+    .formula {
+      background: #e9f2ff;
+      border-left: 5px solid #3477eb;
+      padding: 10px 18px;
+      font-size: 1.2em;
+      margin: 18px 0;
+      font-family: "Consolas", "monospace";
+      color: #1d2d44;
+    }
+    ul, ol {
+      margin-left: 28px;
+    }
+    .example {
+      background: #f8fbff;
+      border-left: 4px solid #74b3fa;
+      padding: 10px 18px;
+      margin: 16px 0;
+      font-size: 1.08em;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #999;
+      font-size: 0.95em;
+    }
+    @media (max-width: 900px) {
+      .container { padding: 20px 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>圆与方程知识讲解</h1>
+
+    <h2>一、标准方程定义</h2>
+    <div class="formula">
+      (x - a)<sup>2</sup> + (y - b)<sup>2</sup> = r<sup>2</sup>
+    </div>
+    <ul>
+      <li><strong>(a, b)</strong> 是圆心坐标</li>
+      <li><strong>r</strong> 是圆的半径</li>
+    </ul>
+
+    <h2>二、标准方程解析</h2>
+    <ol>
+      <li><b>圆心</b>：方程中的 <b>(a, b)</b> 给出圆心位置。</li>
+      <li><b>半径</b>：右侧 <b>r<sup>2</sup></b>，取平方根得到半径 <b>r</b>。</li>
+    </ol>
+    <div class="example">
+      例如：<br>
+      圆心在 (3, 0)，半径为 2 的圆方程为：<br>
+      <span class="formula">(x - 3)<sup>2</sup> + y<sup>2</sup> = 4</span>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 圆与方程相关知识 | 制作：XingYang-lc
+    </div>
+  </div>
+</body>
+</html>
